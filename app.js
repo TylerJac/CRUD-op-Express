@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-const { v4: uuidv4 } = import('uuid'); // Import the uuid package
+import { v4 as uuidv4 } from 'uuid';
+
 // imports
 
 // Create a new Express application
